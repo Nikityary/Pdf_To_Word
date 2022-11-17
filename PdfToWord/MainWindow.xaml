@@ -1,0 +1,14 @@
+﻿<Window x:Class="PdfToWord.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PdfToWord"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="301">
+    <Grid Margin="0,0,0,2">
+        <Button Content="Выбрать файл и конвертировать" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="42" Width="267" Click="Button_Click"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Height="44" Width="267" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
